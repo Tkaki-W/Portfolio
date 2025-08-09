@@ -22,11 +22,7 @@ export function Component() {
         <FooterDivider />
         <div className="w-full sm:flex sm:items-center sm:justify-between">
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-            <FooterIcon href="#" icon={BsFacebook} />
-            <FooterIcon href="#" icon={BsInstagram} />
-            <FooterIcon href="#" icon={BsTwitter} />
-            <FooterIcon href="#" icon={BsGithub} />
-            <FooterIcon href="#" icon={BsDribbble} />
+            <FooterIcon href="https://github.com/Tkaki-W" icon={BsGithub} />
           </div>
         </div>
       </div>
