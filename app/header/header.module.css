@@ -1,7 +1,6 @@
-.header_compornent{
-    background:greenyellow;
-    display: flex;
-}
-.header_index{
-    background:pink;
+.Navbar{
+    width:100%;
+    position:fixed;
+    top:0;
+    z-index: 1;
 }

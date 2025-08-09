@@ -1,17 +1,21 @@
 // app/layout.tsx
-import {header} from "./header/header.tsx";
+import {Header} from "./header/header.tsx";
+import {Component} from "./footer/footer.tsx";
 import styles from "./page.module.css";
+import "./globals.css"; 
 
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="ja">
+    <html lang="ja" className={styles.html}>
       <body className={styles.body}>
-        <header>{
-          header()
-        }</header>
+        <header>
+          <Header/>
+        </header>
         <main>{children}</main>
-        <footer>共通フッター</footer>
+        <footer>
+          <Component />
+        </footer>
       </body>
     </html>
   )

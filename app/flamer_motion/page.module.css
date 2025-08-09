@@ -1,0 +1,20 @@
+.title{
+    margin:5%;
+    padding-top:10%;
+}
+.history{
+    display:flex;
+    margin-left:10%;
+}
+.motion{
+    font-size: 25px;
+}
+.years{
+ border-right:double;
+ margin-bottom:10%;
+ 
+
+}
+.contents{
+ margin-bottom:10%;
+}
