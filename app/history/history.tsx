@@ -1,6 +1,6 @@
 "use client"
 
-import {History_test} from "./map_slider/map_slider.tsx";
+import {History_test} from "./map_slider/map_slider";
 import styles from './page.module.css';
 
 export  function History() {
