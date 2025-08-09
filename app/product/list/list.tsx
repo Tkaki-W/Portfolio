@@ -5,6 +5,7 @@ type TimelineItem = {
   img: string;
   title: string;
   body: string;
+  url:string;
 };
 
 // ② props の型を“arraies”フィールド配列”として定義
