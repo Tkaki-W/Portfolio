@@ -1,5 +1,5 @@
-import {List} from "./list/list.tsx";
-import {Component} from "./list/list.tsx";
+import {List} from "./list/list";
+import {Component} from "./list/list";
 import styles from "./product.module.css";
 export function Product(){
 

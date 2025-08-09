@@ -14,6 +14,12 @@ import {
   TimelineTitle,
 } from "flowbite-react";
 
+export type TimelineEntry = {
+  year:string;
+  title:string;
+  body:string;
+}
+
 type Props ={
     entries:TimelineEntry[]
 };

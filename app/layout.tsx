@@ -1,6 +1,6 @@
 // app/layout.tsx
-import {Header} from "./header/header.tsx";
-import {Component} from "./footer/footer.tsx";
+import {Header} from "./header/header";
+import {Component} from "./footer/footer";
 import styles from "./page.module.css";
 import "./globals.css"; 
 
