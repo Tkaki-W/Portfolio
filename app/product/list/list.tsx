@@ -1,11 +1,18 @@
 import styles from "./list.module.css"
 import { Card } from "flowbite-react";
 
-type arrayProps ={
-img: string;
-title: string;
-body : string;
+type TimelineItem = {
+  img: string;
+  title: string;
+  body: string;
 };
+
+// ② props の型を“arraies”フィールド配列”として定義
+type arrayProps = {
+  arraies: TimelineItem[];
+};
+
+
 
 export function Component({arraies}:arrayProps) {
 
