@@ -1,6 +1,5 @@
 "use client"
 
-import {test} from "./map_slider/map_slider.tsx";
 import {History_test} from "./map_slider/map_slider.tsx";
 import styles from './page.module.css';
 
