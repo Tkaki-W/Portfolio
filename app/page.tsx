@@ -2,7 +2,7 @@
 
 import styles from "./page.module.css";
 import {BlobBackground} from "./top_page/top_page.tsx";
-import {History} from "./flamer_motion/page";
+import {History} from "./history/history.tsx";
 import {Product} from "./product/product.tsx";
 
 // app/page.tsx
