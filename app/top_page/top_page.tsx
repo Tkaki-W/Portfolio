@@ -32,7 +32,7 @@ export function BlobBackground() {
       {["Hello,", "I’m Takaki.", "Welcome to my Portforio site."].map((text, i) => (
         <motion.h1
           key={i}
-          className="text-4xl sm:text-6xl font-bold text-gray-800 w-screen flex justify-center items-center"
+          className="text-4xl sm:text-6xl font-bold text-gray-800 w-screen flex justify-center text-center"
           variants={item}
         >
           {text}

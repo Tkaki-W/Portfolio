@@ -38,7 +38,7 @@ export function History_test({entries}:Props) {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.2 }}
-        transition={{ duration: 0.6, delay: i * 0.2 }}
+        transition={{ duration: 0.6, delay:  0.2 }}
         >
         <TimelineContent>
           <TimelineTime>{entry.year}</TimelineTime>

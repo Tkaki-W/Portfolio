@@ -15,7 +15,8 @@ export  function History() {
     {year:"spring 2023", title:"大学進学", body:"早稲田大学創造理工学部総合機械工学科に進学"},
     {year:"summer 2023", title:"ロボコンサークルで活動開始", body:"マイコンのプログラミングをC++などを用いて制作"},
     {year:"winter 2023", title:"獄門疆制作", body:"大学のコンペティションでアニメをモチーフにしたタスクマネージャーを制作しTA賞を受賞"},
-    {year:"spring 2025", title:"研究室でpythonやUnityについて学ぶ", body:"所属している岩田研究室で将来に役立つプログラミングの知識を学習中"}
+    {year:"spring 2025", title:"研究室でpythonやUnityについて学ぶ", body:"所属している岩田研究室で将来に役立つプログラミングの知識を学習中"},
+    {year:"summer 2025", title:"reactについて学び始める", body:"「サバイバルTypeScript」などを用いて学習中"}
 
   ];
 
