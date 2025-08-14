@@ -29,7 +29,7 @@ export function BlobBackground() {
       animate="show"
       variants={container}
     >
-      {["Hello,", "I’m Takaki.", "Welcome to my Portforio site."].map((text, i) => (
+      {["Hello,", "I’m Takaki.", "Welcome to my Portfolio site."].map((text, i) => (
         <motion.h1
           key={i}
           className="text-4xl sm:text-6xl font-bold text-gray-800 w-screen flex justify-center text-center"
