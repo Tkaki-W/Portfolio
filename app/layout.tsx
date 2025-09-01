@@ -13,7 +13,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header>
           <Header/>
         </header>
-        <main>{children}</main>
+        <main>
+          {children}
+          <Analytics />  
+        </main>
         <footer>
           <Component />
         </footer>
