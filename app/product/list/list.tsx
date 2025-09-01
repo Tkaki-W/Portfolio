@@ -18,7 +18,7 @@ type arrayProps = {
 export function Component({arraies}:arrayProps) {
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 w-full">
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 w-full auto-rows-fr">
         {arraies.map((array, i)=>(
             <div key={i} className={styles.content}>
                 <a href={array.url}>
