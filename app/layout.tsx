@@ -1,4 +1,5 @@
 // app/layout.tsx
+import { Analytics } from "@vercel/analytics/next"
 import {Header} from "./header/header";
 import {Component} from "./footer/footer";
 import styles from "./page.module.css";
