@@ -13,7 +13,7 @@ export  function History() {
     {year:"winter 2020", title:"PHPとmySQLを学習", body:"Progateで少しだけ学習"},
     {year:"summer 2021", title:"Unityを使ったモンキーハンディング装置の政策",  body:"所属していた物理部の部長として、リモートでもわかりやすいように、物理実験をUnityで再現"},
     {year:"spring 2023", title:"大学進学", body:"早稲田大学創造理工学部総合機械工学科に進学"},
-    {year:"summer 2023", title:"ロボコンサークルで活動開始", body:"マイコンのプログラミングをC++などを用いて制作"},
+    {year:"summer 2023", title:"大学内ロボコンに出場", body:"マイコンのプログラミングをC++などを用いて制作"},
     {year:"winter 2023", title:"獄門疆制作", body:"大学のコンペティションでアニメをモチーフにしたタスクマネージャーを制作しTA賞を受賞"},
     {year:"spring 2025", title:"研究室でpythonやUnityについて学ぶ", body:"所属している岩田研究室で将来に役立つプログラミングの知識を学習中"},
     {year:"summer 2025", title:"reactについて学び始める", body:"「サバイバルTypeScript」などを用いて学習中"}
