@@ -1,0 +1,25 @@
+.aboutme{
+    background:linear-gradient(#CCE5FF,white)
+}
+.index_parent{
+    height:20vh;
+}
+.index{
+    padding-top:10vh;
+    text-align:center;
+    z-index:2;
+}
+.sentence{
+    font-family:'TsukuBRdGothic-Regular';
+    padding:1rem;
+    text-align:center;
+}
+.text{
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+.slider{
+    width:80%;
+    display: flex;
+    margin-left: 10%;
+}

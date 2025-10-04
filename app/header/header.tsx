@@ -1,10 +1,20 @@
+"use client"
+import { usePathname } from 'next/navigation';
+import {useState, useEffect} from "react";
 import styles from "./header.module.css";
-
-
 import { Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle } from "flowbite-react";
 import Link from "next/link";
 
 export function Header() {
+  //マウントをする前にルーティングを処理するとエラーが起きるから、レンダリングが終わるまで待つ
+  const [mounted, setMounted] = useState(false);
+  const pathname = usePathname();
+  console.log(pathname);
+
+  useEffect(()=>{
+    setMounted(true);
+  },[])
+
   return (
     <Navbar fluid rounded className={styles.Navbar}>
       <NavbarBrand>
@@ -12,11 +22,12 @@ export function Header() {
       </NavbarBrand>
       <NavbarToggle />
       <NavbarCollapse>
-        <NavbarLink href="#" active>
+        <NavbarLink href="/" active = {mounted ? pathname === "/" : false}>
           Home
         </NavbarLink>
-        <NavbarLink href="#history">History</NavbarLink>
-        <NavbarLink href="#product">Product</NavbarLink>
+        <NavbarLink href="/aboutme" active = {mounted ? pathname === "/aboutme": false}>
+          About me
+        </NavbarLink>
       </NavbarCollapse>
     </Navbar>
   );
