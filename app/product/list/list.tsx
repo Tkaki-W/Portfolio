@@ -6,6 +6,7 @@ type TimelineItem = {
   title: string;
   body: string;
   url:string;
+  link?:string;
 };
 
 // ② props の型を“arraies”フィールド配列”として定義
@@ -20,7 +21,7 @@ export function Component({arraies}:arrayProps) {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-5 w-full auto-rows-fr">
         {arraies.map((array, i)=>(
-            <div key={i} className={styles.content}>
+            <div key={i} id={array.link} className={styles.content}>
                 <a href={array.url}>
                 <Card
                 className="max-w-sm overflow-hidden"

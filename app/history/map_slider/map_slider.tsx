@@ -18,6 +18,7 @@ export type TimelineEntry = {
   year:string;
   title:string;
   body:string;
+  link?:string;
 }
 
 type Props ={
@@ -40,6 +41,7 @@ export function History_test({entries}:Props) {
         viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.6, delay:  0.2 }}
         >
+        <a href={entry.link} >
         <TimelineContent>
           <TimelineTime>{entry.year}</TimelineTime>
           <TimelineTitle>{entry.title}</TimelineTitle>
@@ -47,6 +49,7 @@ export function History_test({entries}:Props) {
             {entry.body}
           </TimelineBody>
         </TimelineContent>
+        </a>
         </motion.div>
       </TimelineItem>
         ))}
